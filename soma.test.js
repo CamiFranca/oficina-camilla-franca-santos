@@ -2,6 +2,9 @@ const soma = require('./soma')
 
 describe('Soma', () => {
   it('deverá somar dois números inteiros', () => {
-    //seu código aqui
+
+
+    expect(soma(5,25)).toBe(30)
+   
   })
 })
